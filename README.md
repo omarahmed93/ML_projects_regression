@@ -58,9 +58,9 @@ Model Type:
 
 Evaluation Metrics:
 
-MAE: X.XX
+MAE: 2.004
 
-RMSE: X.XX
+RMSE: 3.8101
 
 R²: 0.82 
 

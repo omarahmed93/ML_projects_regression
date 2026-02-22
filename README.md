@@ -1,17 +1,17 @@
 # ML_projects_regression
 
-🚖 Taxi Fare Prediction API
+# 🚖 Taxi Fare Prediction API
 
 Production-ready Machine Learning regression service built with FastAPI and Docker.
 
-📌 Overview
+# 📌 Overview
 
 This project implements an end-to-end machine learning pipeline to predict taxi fare amounts based on trip metadata (distance, passenger count, datetime features).
 
 The trained regression model is exposed through a REST API using FastAPI and containerized using Docker for reproducible deployment.
 
 
-🚀 Features
+# 🚀 Features
 
 End-to-End ML pipeline (preprocessing + model)
 
@@ -27,7 +27,7 @@ Dockerized for consistent deployment
 
 Interactive API docs (/docs)
 
-🧠 Model Details
+# 🧠 Model Details
 
 Target: fare_amount
 

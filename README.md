@@ -114,6 +114,55 @@ These results indicate that the model explains a strong proportion of fare varia
 POST /predict
 ---
 
+---
+
+## 📥 Example Request
+
+### Endpoint
+```http
+POST /predict
+```
+
+### Sample Input
+```json
+{
+  "distance_km": 5.2,
+  "passenger_count": 2,
+  "hour": 14,
+  "weekday": 3,
+  "month": 6,
+  "year": 2024
+}
+```
+
+### Sample Response
+```json
+{
+  "predicted_fare": 12.45
+}
+```
+
+---
+
 ## 🚀 Running the Project Locally
+
+### 1. Clone the repository
+```bash
 git clone https://github.com/omarahmed93/ML_projects_regression.git
 cd ML_projects_regression
+```
+
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the FastAPI application
+```bash
+uvicorn main:app --reload
+```
+
+### 4. Open the interactive docs
+```bash
+http://127.0.0.1:8000/docs
+```

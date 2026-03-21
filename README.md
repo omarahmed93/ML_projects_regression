@@ -166,3 +166,36 @@ uvicorn main:app --reload
 ```bash
 http://127.0.0.1:8000/docs
 ```
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the FastAPI application
+```bash
+uvicorn main:app --reload
+```
+
+### 4. Open the interactive docs
+```bash
+http://127.0.0.1:8000/docs
+```
+
+---
+
+## 🐳 Run with Docker
+
+### Build Docker image
+```bash
+docker build -t taxi-fare-api .
+```
+
+### Run container
+```bash
+docker run -p 8000:8000 taxi-fare-api
+```
+
+### Open the API docs
+```bash
+http://127.0.0.1:8000/docs
+```

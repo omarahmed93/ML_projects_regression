@@ -112,6 +112,8 @@ These results indicate that the model explains a strong proportion of fare varia
 ### Endpoint
 ```http
 POST /predict
+---
 
+## 🚀 Running the Project Locally
 git clone https://github.com/omarahmed93/ML_projects_regression.git
 cd ML_projects_regression

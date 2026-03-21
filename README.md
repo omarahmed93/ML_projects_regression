@@ -199,3 +199,16 @@ docker run -p 8000:8000 taxi-fare-api
 ```bash
 http://127.0.0.1:8000/docs
 ```
+
+## 📁 Project Structure
+
+```bash
+ML_projects_regression/
+│
+├── main.py
+├── predict.py
+├── schema.py
+├── model.pkl
+├── requirements.txt
+├── Dockerfile
+└── README.md

@@ -114,13 +114,6 @@ These results indicate that the model explains a strong proportion of fare varia
 POST /predict
 ---
 
----
-
-## 📥 Example Request
-
-### Endpoint
-```http
-POST /predict
 ```
 
 ### Sample Input
